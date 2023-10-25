@@ -1,0 +1,19 @@
+Package: scEnrichment
+Type: Package
+Title: Single-cell enrichment analysis tool
+Version: 1.0.0
+Date: 2023-10-25
+Author: tqfan
+Maintainer: tqfan <tongqiang.fan@m20genomics.com>
+Description: The scEnrichment is used for functional enrichment analysis for marker genes
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: stats,
+         clusterProfiler,
+         org.Hs.eg.db,
+         org.Mm.eg.db,
+         dplyr,
+         graphics
+Depends: R (>= 4.0.0)
+RoxygenNote: 7.2.1
